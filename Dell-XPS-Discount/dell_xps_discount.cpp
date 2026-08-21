@@ -13,9 +13,8 @@ int main()
     cout << "Enter the sales tax of CA" <<endl;
     cin >> sales_tax;
 
-    dis_rate = dellxps * 0.10;
-    int final_price;
-    final_price = dellxps + (dellxps * dis_rate);
+    float discounted_price = dellxps - (dellxps * dis_rate);
+    float final_price = discounted_price + (discounted_price * sales_tax);
     cout << final_price <<endl;
 
 
