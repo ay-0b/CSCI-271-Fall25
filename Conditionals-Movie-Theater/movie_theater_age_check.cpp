@@ -6,7 +6,7 @@ int main()
     int age = 0;
     cout<<"enter your age";
     cin>>age;
-    if(num>=18){
+    if(age>=18){
         cout<<"You can enter the movie theather";
     }
     else{
