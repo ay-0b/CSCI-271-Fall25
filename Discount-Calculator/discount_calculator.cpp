@@ -10,7 +10,7 @@ int main()
    original_price = 100;
 
    int discount_amount;
-    discount_amount = (original_price * (discount_percentage / 100));
+    discount_amount = (original_price * discount_percentage) / 100;
    int final_price;
    final_price = original_price - discount_amount;
    cout<<final_price;
